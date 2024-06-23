@@ -1,0 +1,10 @@
+from classss import *
+kapil= CreateBankAccount(20000, "kapil")
+Vijay= CreateBankAccount(30000, "Vijay")
+kapil.fetch_balance()
+Vijay.fetch_balance()
+kapil.deposit(15000)
+kapil.withdraw(45000)
+kapil.withdraw(30000)
+kapil.transfer(250,Vijay)
+Vijay.transfer(30000,kapil)
